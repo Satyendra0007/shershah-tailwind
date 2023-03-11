@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+  <title>Shershah Collage Sasaram</title>
+</head>
+
+<body>
+  <!-- <div class="text-5xl bg-gradient-to-r from-red-500 via-green-500 bg-yellow-500 text-transparent bg-clip-text inline-block ">Hello World</div> -->
+
+  <header>
+    <div
+      class="enquiry bg-light-gradient text-white font-serif py-2 flex flex-col items-center md:flex-row md:justify-evenly">
+      <a class="hover:underline hover:underline-offset-2" href="">
+        <div class="flex justify-center">
+          <img class="w-4 mr-1" src="images/email.png" alt="" />
+          <p class="text-xs md:text-sm">enquiry@shershahcollage.co.in</p>
+        </div>
+      </a>
+      <a class="hover:underline hover:underline-offset-2" href="">
+        <div class="flex justify-center">
+          <img class="w-4 mr-1" src="images/hand.png" alt="" />
+          <p class="text-xs md:text-sm">
+            NAAC Accreditated 'B+' Grade with CGPA 2.54 in 2017
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div
+      class="navbar flex items-center px-2 justify-between py-2 shadow-md border border-gray-400 md:px-0 md:justify-center">
+      <div id="hamburger" class="cursor-pointer md:hidden">
+        <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+        <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+        <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+      </div>
+      <div class="search md:order-2 mx-1 flex items-center">
+        <input id="searchbox"
+          class="py-[3px] px-3 w-36 rounded-xl outline-none border-2 border-violet-700 focus:ring-1 focus:ring-pink-500 placeholder:text-gray-500 placeholder:font-semibold"
+          type="text" placeholder="Search..." />
+        <button id="search" class="p-2 ml-1 rounded-full cursor-pointer bg-dark-gradient hover:scale-105" type="submit">
+          <img class="w-4" src="images/search.png" alt="" />
+        </button>
+      </div>
+      <div id="menu"
+        class=" hidden absolute  right-0 top-12 h-screen w-60 text-white bg-light-gradient z-50 md:block md:sticky md:w-auto md:h-auto md:order-1 md:text-pink-700 md:bg-gray-400">
+        <ul class="md:flex md:space-x-4 md:justify-center md:items-center md:bg-white">
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105  ">
+            <a href="/">Home</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="About.html" class="active">About Us</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="Academic.html">Academic</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="Administration.html">Administration</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="notes.html">E-notes</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="staff.html">Staff</a>
+          </li>
+          <hr class="bg-gray-500" />
+        </ul>
+      </div>
+    </div>
+
+    <div class="logo py-5 flex items-center justify-center flex-col md:flex-row md:space-x-3">
+      <div class="image">
+        <img class="rounded-full w-24 md:w-28" src="images/Slogo.png" alt="logo" />
+      </div>
+      <div class="name text-center">
+        <h1 class="text-lg font-bold bg-dark-gradient text-transparent bg-clip-text inline-block md:text-2xl">
+          Sher Shah Collage, Sasaram
+        </h1>
+        <p class="text-xs text-center text-gray-800 font-semibold md:text-sm">
+          [ A constituent unit of Veer Kunwar Singh University, Ara , Bihar ]
+        </p>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <div class=" mx-auto py-1 md:py-2 border bg-white border-gray-300 shadow-md sticky top-0 ">
+      <ul class=" flex flex-wrap justify-center space-x-3 md:space-x-4">
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#introduction">Intoduction</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#aboutTheCity">About The City</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#motoAndObjective">Motto and
+            Objective</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#vision">Vision</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#mission">Mission</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#principalDesk">Principal Desk</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <section id="introduction" class="container mx-auto py-12">
+      <h1 class=" ml-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold md:ml-0">
+        Introduction
+      </h1>
+      <div class=" info my-5">
+        <img class="w-full lg:w-fit lg:float-right lg:ml-4" src="images/S1.jpg" alt="">
+        <p class="p-2 text-justify tracking-wide md:p-0">Sher Shah College established in 1975. In 1985 this college
+          became
+          constituent unit of Magadh University. In
+          1992 after the setup of Veer Kunwar Sigh University, this college became the constituent unit of it. I
+          rejoined this college after 12 years, in May’2007. At that time condition of college was so pathetic that
+          concurrent VC Dr. I.C Kumar had shown deep grieve for disreputable pathetic condition of this college. Special
+          official of Rajya Bhawan Dr K Kumar ji shared the same opinion for this college. Present Huge magnificent
+          structure is a result of construction & renovation of facilities done after June 2007. In between this ,
+          floors of old building, gates, windows and old plasters been renovated and modified to new form along with
+          construction of new building of 50000 sqft area in ground floor. Along with this in first floor construction
+          work of vitrified tiles floor of 16000 been accomplished for imparting new vocational courses in this floor. I
+          am glad that from the beginning this college remains be the center of attraction for the backward and poor
+          classes. Numbers of male & female in this college in term of percentage is about 30 to 35 and numbers of alone
+          female students forms 30% of total numbers of all the students of this college. To impart the study of
+          vocational courses like BBA BBE,BBS and industrial fish & fisheries and library science permission and
+          guidance of well renowned professors , noble and experienced faculties of top universities already been
+          availed. </p>
+        <p class="p-2 text-justify tracking-wide md:p-0"> It is famous for production of stone chips, and for quarrying
+          industry. Major languages spoken in this region
+          are Bhojpuri, Hindi, and Urdu; local religions include Hinduism, Islam, Sikhism, Buddhism, and Jainism </p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0">Sher Shah College, Sasaram (Rohtas) is a constituent unit of
+          Magadh
+          University Bodh Gaya (Bihar). It is
+          registered under 2(f) and 12 B of U.G.C. The college is located in a poor and backward region of Bihar. A rain
+          shadow area where poverty and illiteracy are prominent features of the locality. The majority population of
+          this district is SC, ST and OBC. They are either landless or marginal/small farmers with few exceptions. The
+          economic disparity is the root cause of left extremism.</p>
+
+
+
+        <p class="p-2 text-justify tracking-wide md:p-0">You are aware that college heritage blessed with the shadow of
+          two
+          great personalities; they are not only the
+          pride of the Bihar but also the proud of the world. Whole world believes in an extraordinary talent of Sher
+          Shah Suri. He was the man who experiment the public welfare administrative system in India for the first time.
+          As there were many emperor ruled in India but the systematization of society in new form is an extraordinary
+          example set by Sher Shah Suri. This is a matter of pride that Sher Shah chose Sasaram as its capital. Today,
+          group of educationists & learned people discussing new approaches, theories and implementing new
+          projects/plans for the establishment of welfare administrative system but 500 years back Sher shah
+          experimented and shown the real picture of welfare state. Today’s projects like Construction of the road,
+          plantation of trees, facilities for drinking reminds us of Sher Shah Suri. Now it rests in our hand to carry
+          forward the pride saga of efficient and talented emperor Sher Shah Suri. College story not ends here. This
+          college is an integral part of Veer Kunwar Singh University. There is an intimate relationship between Veer
+          Kunwar Singh and struggle movement for the freedom of India. Now it is a duty of the college to carry forward
+          the pride of freedom fighter that devoted everything for the nation.
+        </p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0"> All necessary infrastructures are present in this college.
+          There is
+          an automated central library with internet
+          facility. All laboratories are well equipped. The college imparts undergraduate and post graduate education in
+          various subjects in Arts and Science. Degree level vocational education is also available in BCA & BBA.</p>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]" >
+
+
+    <section id="aboutTheCity" class="container mx-auto py-12">
+      <h1 class=" ml-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold md:ml-0">About The
+        City
+      </h1>
+      <div class=" info my-5">
+        <img class="w-full lg:w-fit lg:float-right lg:ml-4" src="images/sasaram.jpg" alt="">
+        <p class="p-2 text-justify tracking-wide md:p-0">Sasaram is a city and a notified area in Rohtas district in the
+          state of Bihar, India. Sasaram is the birthplace of the Afghan king Sher Shah Suri, who ruled over Delhi, much
+          of northern India, what is now Pakistan, and eastern Afghanistan for five years, after defeating the Mughal
+          Emperor Humayun. Many of Sher Shah Suri’s governmental practices were adopted by the Mughals and the British
+          Raj including taxation, administration, and the building of a paved road from Kabul to Bengal. </p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0"> Sher Shah Suri’s 122 feet (37 m) red sandstone tomb, built in
+          the
+          Indo-Afghan style stands in the middle of an artificial lake at Sasaram. It borrows heavily from the Lodhi
+          style, and was once covered in blue and yellow glazed tiles indicating an Iranian influence. The massive free
+          standing dome also has an aesthetic aspect of the Buddhist stupa style of the Mauryan period. The tomb of Sher
+          Shah’s father Hasan Khan Suri is also at Sasaram, and stands in the middle of green field at Sherganj, which
+          is known as Sukha Rauza. About a kilometer to the North West of Sher Shah’s tomb lies the incomplete and
+          dilapidated tomb of his son and successor, Islam Shah Suri. Sasaram also has a baulia, a pool used by the
+          emperor’s consorts for bathing. </p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0">The fort of Sher Shah Suri at Rohtasgarh is in Sasaram. This
+          fort has
+          a history dating back to the 7th century AD. It was built by Raja Harishchandra in the name of his son
+          Rohitashwa, son of illustrious king Harishchandra, known for his truthfulness. It houses the Churasan temple,
+          Ganesh temple, diwan-e khas, diwan-e-aam, and various other structures dating back to different centuries. The
+          fort also served as the headquarters of Raja Man Singh during his reign as the governor of Bihar and Bengal
+          under the regime of Akbar. The Rohtas fort in Bihar should not be confused with another fort of the same name,
+          near Jhelum, Punjab, in what is now Pakistan. The Rohtas fort in Sasaram was also built by Sher Shah Suri,
+          during the period when Humayun was exiled from Hindustan.</p>
+
+
+
+        <p class="p-2 text-justify tracking-wide md:p-0">There is a temple of Goddess Tarachandi, two miles to the
+          south, and
+          an inscription of Pratap Dhawal on the rock close to the temple of Chandi Devi. Hindus in large number
+          assemble to worship the goddess. Dhuwan Kund, located about 36 km. South-West of this town, is one of the
+          attractive tourist places and it can be developed as a beautiful natural site. Gupta Dham is also an
+          attractive tourist and religious place, situated in the Chenari Block of this district. This also can be
+          developed as beautiful natural site. This place is a famous centre of Shiva-Aradhana. Hindus in large numbers
+          assemble here to worship the Lord Shiva. The two waterfalls have enough capacity to generate 50-100 MW of
+          electricity, if utilized properly.
+        </p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0"> There are several monuments near Sasaram, the headquarter of
+          Rohtas
+          district, inclusing Akbarpur, Deomarkandey, Rohtas Garh, Shergarh, TaraChandi, Dhuwan Kund, Gupta Dham,
+          Bhaluni Dham, Historical Gurudwara and Tombs of Chandan Shaheed, Hasan Khan Sur, Sher Shah, Salim Sah and
+          Alawal Khan.</p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0">Rohtas, south of Sasaram, is known to have been the residence
+          of one
+          Satyawadi Raja Harischandra, named for his son, Rohitashwa. Sasaram is also famous for the Samrat Ashok pillar
+          (one of the thirteen laghu shilalekh), situated in a small cave of Kaimur hill, near Chandan Shaheed.</p>
+        <p class="p-2 text-justify tracking-wide md:p-0">
+          Samadhi of Shree Shree 1008 Shree Swami Parmeshwara Nand Ji Maharaj, also known as Adwait Ashram, Dakshin
+          Kutia, Situated in Parampuri (Raipur Chaur) 12 kilometres (7.5 mi) from Sasaram. It (Adwait Ashram) has
+          nearabout 24 branches over Country in many states. The headquarters is in Sasaram, and is also known as
+          Navlakha Ashram.
+        </p>
+        <p class="p-2 text-justify tracking-wide md:p-0">Babu Nishan Singh who was the general of Babu Kunwar Singh’s
+          army
+          fighting against the British during the 1857 GADAR freedom struggle, came from Sasaram. Jainath Bhawan is a
+          grand mansion built by a magistrate named Babu Harihar Prasad Verma, and his wife Uma Devi Verma, in 1945. The
+          mansion is named for Babu Jainath Prasad, who was a Zamindar and the first lawyer to practice in
+          English[vague]. A secondary school founded by Uma Devi Verma, named Harihar Uma Madhyamik Vidyalaya, still
+          runs at the Meyari Bazar, although it is now administered by the government.
+        </p>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]" >
+
+    <section id="motoAndObjective" class="container mx-auto py-12">
+      <h1 class=" ml-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold md:ml-0">Motto and
+        Objective
+      </h1>
+      <div class=" info my-5">
+        <h2 class=" font-semibold text-center">MOTTO</h2>
+        <p class="p-2 text-center tracking-wide md:p-0 md:mt-2">Almighty God! May the knowledge studied by us (teacher &
+          disciple) be enlightening, may we not be defeated in the field of knowledge anywhere by anyone.
+        </p>
+
+      </div>
+      <div class=" info  md:my-10">
+        <h2 class=" font-semibold text-center">OBJECTIVE</h2>
+        <p class="p-2 text-justify tracking-wide md:p-0 md:mt-2">The students have to develop life skills to equip them
+          to face
+          contemporary challenges. We must enable them to keep pace with the demands of the changing times, the
+          technological advances, and the progressive changes in social & cultural mindset. They must always work with a
+          vision to improvement and growth of self, society and the nation. As mentors to the future generation, our
+          object is to facilitate them to realize their maximum potential and develop their hidden talents as per their
+          aptitude. We must motivate students to imbibe work ethics through self-discipline and dedication and to
+          develop a constructive approach with positive thinking. They must maintain high standards of excellence,
+          always be quality conscious yet learn from mistakes and strive towards improvement. In this age of global
+          competitiveness with stress on materialism our objective is to inculcate a sense of community development,
+          team work dominated by selfless service and a commitment to positively contribute to the society and the
+          nation. All members must learn to respect the dignity of labour and the plurality and diversity of human kind.
+        </p>
+
+        <p class="p-2 text-justify tracking-wide md:p-0">STAKEHOLDERS:- Communication to stakeholders is displayed
+          through hoarding in the campus, notices, prospectus and college website.
+        </p>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]" >
+
+    <section id="vision" class="container mx-auto py-12">
+      <h1 class=" ml-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold md:ml-0">Vision
+      </h1>
+      <div class=" info my-5">
+        <h2 class=" font-semibold text-center">VISION</h2>
+        <p class="p-2 text-justify tracking-wide md:p-0 md:mt-2">To Provide quality education to the students coming
+          from
+          poor and downtrodden family of the rural areas, so that a perfect citizen is made to serve the Society and
+          country for the better tomorrow. The college strives to impart higher education to students of this rural &
+          remote area and make them an asset in nation building by inculcating qualities of competence, confidence and a
+          will to excel.
+        </p>
+
+      </div>
+    </section>
+    <hr class=" bg-dark-gradient mx-auto h-[2px] w-[95%]" >
+
+    <section id="mission" class="container mx-auto py-12">
+      <h1 class=" ml-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold md:ml-0">Mission
+      </h1>
+      <div class=" info my-5">
+        <h2 class=" font-semibold text-center">MISSION</h2>
+        <ul class="list-decimal list-outside p-8">
+          <li class="p-1">
+            <p>To impart value based education which develops a
+              scientific temperament, critical analytical thinking
+              along with all round development of personality of the students.</p>
+          </li>
+          <li class="p-1">
+            <p>To facilitate young learners with opportunities to hone their leadership potential, moral ethics &
+              integrity.</p>
+          </li>
+          <li class="p-1">
+            <p>To sensitize students towards inclusive social concerns, human rights, gender environment issues & their
+              social responsibility.</p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]" >
+
+    <section id="principalDesk" class="container mx-auto py-12">
+      <h1 class=" ml-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold md:ml-0">
+        Principal's Desk
+      </h1>
+      <div class="info">
+        <div class=" principal_detail my-5 ">
+          <img class=" mx-auto" src="images/principal.jpg" alt="">
+
+          <h2 class="my-2 font-bold text-center bg-dark-gradient text-transparent bg-clip-text">Dr Ashok kumar Singh
+          </h2>
+          <p class="text-center font-bold text-green-700">Prof.I/C</p>
+
+        </div>
+        <div class="para my-5">
+          <p class="p-2 text-justify tracking-wide md:p-0">
+            The institution, Sher Shah College, Sasaram, a premier co-educational institution is a constituent unit of
+            Veer Kunwar Singh University, Ara (Bihar) since 2007. It is located in the administrative headquarter of the
+            Rohtas district in the Indian state of Bihar, an historical place, became a District, carved out of the
+            district of Shahabad, in the year 1972.It was established in 1975 and began its journey as an affiliated
+            unit of Magadh University, Bodh–Gaya. With the passage of time, it became an important Centre of quality
+            education. It now boasts of a student strength of nearly 4000. The college imparts education at
+            Intermediate, Undergraduate level both in Arts and Science faculties and. P.G. in Hindi, Political Science
+            and History. Besides these, the college also runs vocational courses like BCA and BBA.
+          </p>
+          <p class="p-2 text-justify tracking-wide md:p-0">
+            The strength of the institution can be assessed by its team of dedicated and well qualified teachers who
+            despite all the constraints have effortlessly carried the institution to greater heights. The college
+            possesses excellent infrastructure. It has an environmentally friendly green campus with bountiful flora and
+            fauna. It possesses hostel facility for girls, examination hall, botanical herbal garden etc. It is equipped
+            with a good library.
+          </p>
+
+          <p class="p-2 text-justify tracking-wide md:p-0">
+            Always ready to face the demands and challenges of competitive globalization, this institution is ready to
+            face assessment and accreditation from NAAC.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]" >
+
+  </main>
+
+  <footer>
+    <div class="footer bg-dark-gradient text-white p-4 mt-5">
+      <p class="text-center font-bold text-sm">Copyright. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

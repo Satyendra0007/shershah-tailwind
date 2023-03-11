@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+    <title>Shershah Collage Sasaram</title>
+</head>
+
+<body>
+    <!-- <div class="text-5xl bg-gradient-to-r from-red-500 via-green-500 bg-yellow-500 text-transparent bg-clip-text inline-block ">Hello World</div> -->
+
+    <header>
+        <div
+            class="enquiry bg-light-gradient text-white font-serif py-2 flex flex-col items-center md:flex-row md:justify-evenly">
+            <a class="hover:underline hover:underline-offset-2" href="">
+                <div class="flex justify-center">
+                    <img class="w-4 mr-1" src="images/email.png" alt="" />
+                    <p class="text-xs md:text-sm">enquiry@shershahcollage.co.in</p>
+                </div>
+            </a>
+            <a class="hover:underline hover:underline-offset-2" href="">
+                <div class="flex justify-center">
+                    <img class="w-4 mr-1" src="images/hand.png" alt="" />
+                    <p class="text-xs md:text-sm">
+                        NAAC Accreditated 'B+' Grade with CGPA 2.54 in 2017
+                    </p>
+                </div>
+            </a>
+        </div>
+
+        <div
+            class="navbar flex items-center px-2 justify-between py-2 shadow-md border border-gray-400 md:px-0 md:justify-center">
+            <div id="hamburger" class="cursor-pointer md:hidden">
+                <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+                <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+                <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+            </div>
+            <div class="search md:order-2 mx-1 flex items-center">
+                <input id="searchbox"
+                    class="py-[3px] px-3 w-36 rounded-xl outline-none border-2 border-violet-700 focus:ring-1 focus:ring-pink-500 placeholder:text-gray-500 placeholder:font-semibold"
+                    type="text" placeholder="Search..." />
+                <button id="search" class="p-2 ml-1 rounded-full cursor-pointer bg-dark-gradient hover:scale-105"
+                    type="submit">
+                    <img class="w-4" src="images/search.png" alt="" />
+                </button>
+            </div>
+            <div id="menu"
+                class=" hidden absolute  right-0 top-12 h-screen w-60 text-white bg-light-gradient z-50 md:block md:sticky md:w-auto md:h-auto md:order-1 md:text-pink-700 md:bg-gray-400">
+                <ul class="md:flex md:space-x-4 md:justify-center md:items-center md:bg-white">
+                    <li
+                        class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105  ">
+                        <a href="/" class="active">Home</a>
+                    </li>
+                    <hr class="bg-gray-500" />
+                    <li
+                        class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <hr class="bg-gray-500" />
+                    <li
+                        class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+                        <a href="academic.html">Academic</a>
+                    </li>
+                    <hr class="bg-gray-500" />
+                    <li
+                        class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+                        <a href="administration.html">Administration</a>
+                    </li>
+                    <hr class="bg-gray-500" />
+                    <li
+                        class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+                        <a href="notes.html">E-notes</a>
+                    </li>
+                    <hr class="bg-gray-500" />
+                    <li
+                        class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+                        <a href="staff.html">Staff</a>
+                    </li>
+                    <hr class="bg-gray-500" />
+                </ul>
+            </div>
+        </div>
+
+        <div class="logo py-5 flex items-center justify-center flex-col md:flex-row md:space-x-3">
+            <div class="image">
+                <img class="rounded-full w-24 md:w-28" src="images/Slogo.png" alt="logo" />
+            </div>
+            <div class="name text-center">
+                <h1 class="text-lg font-bold bg-dark-gradient text-transparent bg-clip-text inline-block md:text-2xl">
+                    Sher Shah Collage, Sasaram
+                </h1>
+                <p class="text-xs text-center text-gray-800 font-semibold md:text-sm">
+                    [ A constituent unit of Veer Kunwar Singh University, Ara , Bihar ]
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container mx-auto py-5">
+            <div class="slider flex justify-center items-center">
+                <img id="slide" class="  shadow-lg w-full h-80 md:h-[26rem] lg:w-10/12 lg:h-[30rem]" src="" alt="">
+            </div>
+            <div class="discription p-4 bg-gray-200 rounded-b-xl mx-auto lg:w-5/6 shadow-md ">
+                <p class="text-gray-900 text-justify leading-5 font-semibold tracking-wider text-sm">
+                    The college has a wide array of cultural, sports and personality development programs designed to
+                    bring best in the students. We have Well-qualified, trained, motivated faculty make SherShah College
+                    , Sasaram , Bihar a unique academic environment. Faculty members who have excellent academic
+                    credentials in their respective line of specialization and long years of teaching experience imparts
+                    quality education to students.
+                </p>
+            </div>
+        </div>
+
+        <div class="container mx-auto py-5">
+            <div class="about p-3 mx-auto lg:w-5/6 ">
+                <h1 class="text-lg font-bold bg-dark-gradient text-white pl-2">About Collage </h1>
+                <ul class="">
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="intoduction.html">About Collage</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="https://shershahcollege.co.in/sher_shah_lib/login.php">Online Application Form For
+                            BLISc-I Session-2022-23</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="https://shershahcollege.co.in/shershahugadm3/login.php">Online Admission For
+                            BA/BCOM/BSC-III Session-2019-22</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="https://shershahcollege.co.in/shershahugadm2/login.php">Online Admission For
+                            BA/BCOM/BSC-II Session-2020-23</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="http://shershahcollege.co.in/fileupload/login.php">E-Notes/Video Link Uploaded by
+                            Faculties</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="/">Tender Notice</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="latestnotice p-3  mx-auto lg:w-5/6">
+                <h1 class="text-lg font-bold bg-dark-gradient text-white pl-2">Latest Notice</h1>
+                <ul class="">
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="/">Intermediate Dummy Admit Card Notice 2023</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="/">Degree Part 3 Session 2018-21 Result</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="/">Morning Notice</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="/">B.Sc. II Chemistry Hons. (Session 2018-21)</a>
+                    </li>
+                    <li
+                        class="p-2 my-1 text-xs font-bold border border-gray-100 shadow-md cursor-pointer hover:bg-gray-200 ">
+                        <a href="/">B.Com II General Pass Course Result 2018-21</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto py-5">
+            <div class="update p-4 mx-auto lg:w-5/6">
+                <h1 class="text-lg font-bold bg-dark-gradient text-white pl-2">Update News</h1>
+                <p class="text-gray-900 text-center  leading-5 font-semibold tracking-wider text-sm pt-2">The Interview
+                    for appointment of teacher in the B.ed. Department which was postponded earlier will now held on
+                    17-12-2015 in the department office.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer bg-dark-gradient text-white p-4 mt-5">
+            <p class="text-center font-bold text-sm">Copyright. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

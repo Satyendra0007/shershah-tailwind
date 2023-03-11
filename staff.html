@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+  <title>Shershah Collage Sasaram</title>
+</head>
+
+<body>
+
+  <header>
+    <div
+      class="enquiry bg-light-gradient text-white font-serif py-2 flex flex-col items-center md:flex-row md:justify-evenly">
+      <a class="hover:underline hover:underline-offset-2" href="">
+        <div class="flex justify-center">
+          <img class="w-4 mr-1" src="images/email.png" alt="" />
+          <p class="text-xs md:text-sm">enquiry@shershahcollage.co.in</p>
+        </div>
+      </a>
+      <a class="hover:underline hover:underline-offset-2" href="">
+        <div class="flex justify-center">
+          <img class="w-4 mr-1" src="images/hand.png" alt="" />
+          <p class="text-xs md:text-sm">
+            NAAC Accreditated 'B+' Grade with CGPA 2.54 in 2017
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div
+      class="navbar flex items-center px-2 justify-between py-2 shadow-md border border-gray-400 md:px-0 md:justify-center">
+      <div id="hamburger" class="cursor-pointer md:hidden">
+        <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+        <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+        <div class="line bg-dark-gradient w-5 h-0.5 m-1"></div>
+      </div>
+      <div class="search md:order-2 mx-1 flex items-center">
+        <input id="searchbox"
+          class="py-[3px] px-3 w-36 rounded-xl outline-none border-2 border-violet-700 focus:ring-1 focus:ring-pink-500 placeholder:text-gray-500 placeholder:font-semibold"
+          type="text" placeholder="Search..." />
+        <button id="search" class="p-2 ml-1 rounded-full cursor-pointer bg-dark-gradient hover:scale-105" type="submit">
+          <img class="w-4" src="images/search.png" alt="" />
+        </button>
+      </div>
+      <div id="menu"
+        class=" hidden absolute  right-0 top-12 h-screen w-60 text-white bg-light-gradient z-50 md:block md:sticky md:w-auto md:h-auto md:order-1 md:text-pink-700 md:bg-gray-400">
+        <ul class="md:flex md:space-x-4 md:justify-center md:items-center md:bg-white">
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105  ">
+            <a href="/">Home</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="About.html">About Us</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="Academic.html">Academic</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="Administration.html">Administration</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="notes.html">E-notes</a>
+          </li>
+          <hr class="bg-gray-500" />
+          <li
+            class="py-4 text-xs text-center font-semibold  cursor-pointer md:py-2 md:text-sm md:bg-dark-gradient md:text-transparent md:bg-clip-text md:font-bold md:hover:scale-105 ">
+            <a href="staff.html" class="active">Staff</a>
+          </li>
+          <hr class="bg-gray-500" />
+        </ul>
+      </div>
+    </div>
+
+    <div class="logo py-5 flex items-center justify-center flex-col md:flex-row md:space-x-3">
+      <div class="image">
+        <img class="rounded-full w-24 md:w-28" src="images/Slogo.png" alt="logo" />
+      </div>
+      <div class="name text-center">
+        <h1 class="text-lg font-bold bg-dark-gradient text-transparent bg-clip-text inline-block md:text-2xl">
+          Sher Shah Collage, Sasaram
+        </h1>
+        <p class="text-xs text-center text-gray-800 font-semibold md:text-sm">
+          [ A constituent unit of Veer Kunwar Singh University, Ara , Bihar ]
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class=" mx-auto py-1 md:py-2 border bg-white border-gray-300 shadow-md sticky top-0 ">
+      <ul class=" flex flex-wrap justify-center space-x-3 md:space-x-4">
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#bcaStaff">BCA - Staff</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#bbaStaff">BBA - Staff</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#teachingStaff">Teaching Staff</a>
+        </li>
+        <li class="p-0.5 text-gray-800 font-semibold text-xs hover:border-b hover:border-b-pink-500 md:text-sm md:p-1">
+          <a href="#nonTeachingStaff">Non-Teaching Staff</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <section id="bcaStaff" class="container mx-auto py-10">
+      <h1 class=" m-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold ">
+        BCA - Staff
+      </h1>
+      <div class="card_cantainer p-4 flex justify-around  items-center flex-wrap gap-16">
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">
+              Deepak
+              Kumar Singh
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Assi. Professor</h2>
+            <p class="font-mono font-semibold">Mobile : 9507747152</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Raju
+              Ranjan Sinha
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Assi. Professor</h2>
+            <p class="font-mono font-semibold">Mobile : 9430026537</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Anupam
+              singh</h1>
+            <h2 class="text-center font-semibold text-green-600">Assi. Professor</h2>
+            <p class="font-mono font-semibold">Mobile : 9661540819</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Arun
+              Kumar Singh
+            </h1>
+            <h2 class="text-center  font-semibold text-green-600">Assi. Professor</h2>
+            <p class="font-mono font-semibold">Mobile : 7870223311</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]">
+
+    <section id="bbaStaff" class="container mx-auto py-10">
+      <h1 class=" m-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold ">
+        BBA - Staff
+      </h1>
+      <div class="card_cantainer p-4 flex justify-around  items-center flex-wrap gap-16">
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]">
+
+    <section id="teachingStaff" class="container mx-auto py-10">
+      <h1 class=" m-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold ">
+        Teaching - Staff
+      </h1>
+      <div class="card_cantainer p-4 flex justify-around  items-center flex-wrap gap-16">
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]">
+
+    <section id="nonTeachingStaff" class="container mx-auto py-10">
+      <h1 class=" m-3 inline-block bg-dark-gradient text-transparent bg-clip-text text-2xl font-bold ">
+        Non - Teaching Staff
+      </h1>
+      <div class="card_cantainer p-4 flex justify-around  items-center flex-wrap gap-16">
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card w-80 bg-dark-gradient rounded-3xl font-mono border-2 border-pink-600">
+          <div class="image p-4">
+            <img class="w-32 mx-auto" src="images/user.png" alt="user">
+          </div>
+          <div class="info bg-white rounded-3xl p-8 space-y-2 text-sm">
+            <h1 class="text-center text-lg font-bold bg-dark-gradient text-transparent bg-clip-text">Unknown
+            </h1>
+            <h2 class="text-center  font-semibold text-green-600">Post</h2>
+            <p class="font-mono font-semibold">Mobile : XXXXXXXXX</p>
+            <h2 class="font-bold">Qaulification :-</h2>
+            <ul class="">
+              <li>
+                <p>1st....</p>
+              </li>
+              <li>
+                <p>2nd....</p>
+              </li>
+              <li>
+                <p>3rd....</p>
+              </li>
+              <li>
+                <p>4th....</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <hr class="bg-dark-gradient mx-auto h-[2px] w-[95%]">
+  </main>
+
+  <footer>
+    <div class="footer bg-dark-gradient text-white p-4 mt-5">
+      <p class="text-center font-bold text-sm">Copyright. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
