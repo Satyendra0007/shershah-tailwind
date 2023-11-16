@@ -11,12 +11,9 @@ document.getElementById('hamburger').onclick = () => {
 
 
 }
-let imageSource = ["images/S1.jpg", "images/S2.jpg", "images/S3.jpg", "images/S4.jpg"]
-let i = 0;
-setInterval(() => {
-    if (i === 4)
-        i = 0;
-    document.getElementById('slide').src = imageSource[i]
-    i++;
 
-}, 2000)
+
+
+
+
+
