@@ -1,0 +1,1 @@
+import"./script-e0de2f57.js";const l=document.getElementById("cousel-container"),n=document.querySelectorAll(".slide");let e=3;const s=t=>{l.style.transform=`translateX(-${t*100}%)`},o=()=>{e=(e+1)%n.length,s(e)};setInterval(o,3e3);
